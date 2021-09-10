@@ -1,0 +1,13 @@
+﻿https://github.com/CGomezNarvaez/Stock-Market-Prediction-Using-LSTM-and-Online-News-Sentiment-Analysis
+
+https://towardsdatascience.com/translate-a-pandas-data-frame-using-googletrans-library-fb0aa7fca592
+
+http://ferramentasdoinvestidor.com.br/financas-quantitativas/como-baixar-cotacoes-historicas-de-acoes/
+
+https://github.com/BoseCorp/py-googletrans
+
+https://github.com/cjhutto/vaderSentiment/blob/master/vaderSentiment/vaderSentiment.py
+
+https://github.com/soccerpredict/TeamNews
+
+https://medium.com/alexandre-george-lustosa/previs%C3%A3o-de-pre%C3%A7o-petr4-com-python-lstm-f93722be59e0

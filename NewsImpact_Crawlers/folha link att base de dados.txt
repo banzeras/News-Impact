@@ -1,0 +1,4 @@
+﻿https://search.folha.uol.com.br/search?q=*&periodo=personalizado&sd=01%2F09%2F2017&ed=30%2F11%2F2017&site=todos
+
+
+https://search.folha.uol.com.br/search?q=*&periodo=personalizado&sd=01%2F09%2F2017&ed=30%2F11%2F2017&site=jornal
