@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 import pandas as pd 
 from pandas_datareader import data as dreader 
 from datetime import datetime
