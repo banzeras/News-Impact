@@ -1,5 +1,5 @@
-# coding: utf-8
-#import csv
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import math
 from operator import index
 import matplotlib.pyplot as plt
@@ -17,11 +17,8 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 from keras.callbacks import EarlyStopping
 
-#"PETR4.SA.csv"
 df=pd.read_csv("NewsImpact_Predictor/VALE.csv")
-
-#df=pd.read_csv("VALE.csv")
-print("Number of rows and columns:", df.shape, "\n")
+print("Quantidade de linhas e colunas:", df.shape, "\n")
 print(df.head(4), "\n")
 
 #O interessante para o presente trabalho é predizer o valor de fechamento da ação.
@@ -85,8 +82,6 @@ predicted_stock_price = sc.inverse_transform(predicted_stock_price)
 
 
 # Plotando os resultados
-#plt.plot(df.loc[800:, "Date"],dataset_test.values, color = "red", label = "Preço real das ações da PETROBRAS")
-#plt.plot(df.loc[800:, "Date"],predicted_stock_price, color = "blue", label = "Preço previsto da ação PETROBRAS")
 plt.plot(df.loc[800:, "Date"],dataset_test.values, color = "red", label = "Preço real das ações da VALE")
 true_df = pd.DataFrame(dataset_test.values)
 true_df.to_csv = ('TRUE_VALE.csv')
@@ -94,12 +89,8 @@ plt.plot(df.loc[800:, "Date"],predicted_stock_price, color = "green", label = "P
 prev_df = pd.DataFrame(predicted_stock_price, index=False)
 prev_df.to_csv('prediction_VALE.csv')
 plt.xticks(np.arange(0,459,50))
-#plt.title('Previsão do preço das ações da PETROBRAS)
 plt.title('Previsão do preço das ações da VALE')
-#plt.title('Previsão do preço das ações da PETROBRAS)
-#plt.title('Previsão do preço das ações da PETROBRAS)
 plt.xlabel('Tempo')
-#plt.ylabel('Preço das ações da PETROBRAS')
 plt.ylabel('Preço das ações da VALE')
 plt.legend()
 plt.show()
